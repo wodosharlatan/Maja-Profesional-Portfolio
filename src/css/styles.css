@@ -515,41 +515,30 @@ button, input[type="submit"], input[type="reset"] {
   background-color: var(--first-color);
 }
 
-.skills__html{
+.skills__českýjazyk{
   width: 49.125%;
 }
 
-.skills__css{
+.skills__dějepis{
   width: 39%;
 }
 
-.skills__javascript{
+.skills__hudebnívýchova{
   width: 26.625%;
 }
 
-.skills__node{
+.skills__fyzika{
   width: 15%;
 }
 
-.skills__php{
+.skills__chemie{
   width: 31.875%;
 }
 
-.skills__sql{
+.skills__biologie{
   width: 33.75%;
 }
 
-.skills__git{
-  width: 37.5%;
-}
-
-.skills__react{
-  width:10.9375%;
-}
-
-.skills__bash{
-  width: 26.25%;
-}
 
 .skills__close .skills__list{
   height: 0;

@@ -1,6 +1,5 @@
 import React from "react";
 import About from "./About";
-import Contact from "./Contact/Contact";
 import Footer from "./Footer";
 import Home from "./Home";
 import Portfolio from "./Portfolio";

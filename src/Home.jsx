@@ -13,8 +13,8 @@ export default function Home() {
       const options = {
         strings: [
           '<i class="uil uil-book-alt nav_icon"></i>Učitelka',
-          '<i class="uil uil-java-script nav_icon"></i> [DALSI TEXT] ',
-          '<i class="uil uil-linux nav_icon"></i> [DALSI TEXT]',
+          'Volitelný text+ikona',
+          'DALSI TEXT + ikona',
         ],
         typeSpeed: 150,
         backSpeed: 150,
