@@ -27,15 +27,15 @@ export default function Footer() {
                         </ul>
 
                         <div class="footer__socials">
-                            <a  href="https://wa.me/?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20"
+                            <a href="https://wa.me/420739708473?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná."
                                 target="_blank"
-                                class="footer__social"
-                            >
+                                class="footer__social">
                                 <i class="uil uil-whatsapp"></i>
                             </a>
 
-                            <a  href="tel:+420739708473"
-                                target="_blank" 
+
+                            <a href="tel:+420739708473"
+                                target="_blank"
                                 class="footer__social"
                             >
                                 <i class="uil uil-phone-alt"></i>
@@ -43,7 +43,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <p class="footer__copy">
-                        <a target="_blank" href="https://bosic.xyz">&#169; Tomáš Bosák</a>
+                        <a className="footer__social" target="_blank" href="https://bosic.xyz">&#169; Tomáš Bosák</a>
                     </p>
                 </div>
             </footer>
