@@ -8,26 +8,26 @@ export default function FrontEndModal({ open, onClose }) {
       <div class="services__modal">
         <div class="services__modal-content">
           <h4 class="services__modal-title">
-            Frontend <br /> Developer
+            Doučovaní <br /> Matematiky
           </h4>
           <i onClick={onClose} class="uil uil-times services__modal-close"></i>
 
           <ul class="services__modal-services grid">
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>Web page development.</p>
+              <p>1 až 9 třída</p>
             </li>
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>I develop the user interface.</p>
+              <p>Jednoduché i složité rovnice</p>
             </li>
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>I create Ui layouts.</p>
+              <p>Geometrie</p>
             </li>
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>I manage visual design.</p>
+              <p>Učivo střední školy</p>
             </li>
           </ul>
         </div>

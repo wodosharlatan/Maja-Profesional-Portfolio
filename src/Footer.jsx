@@ -3,48 +3,50 @@ import React from "react";
 export default function Footer() {
     return (
         <>
-        
+
             {/* ==================== FOOTER ==================== */}
             <footer class="footer">
                 <div class="footer__bg">
                     <div class="footer__container container grid">
                         <div>
-                            <h1 class="footer__title">Tom</h1>
-                            <span class="footer__subtitle">IT student</span>
+                            <h1 class="footer__title">Mája</h1>
+                            <span class="footer__subtitle">Učitelka</span>
                         </div>
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#services" class="footer__link">Services</a>
+                                <a href="#" class="footer__link">Domů</a>
                             </li>
                             <li>
-                                <a href="#portfolio" class="footer__link">Portfolio</a>
+                                <a href="#services" class="footer__link">Služby</a>
                             </li>
                             <li>
-                                <a href="#contact" class="footer__link">Contact</a>
+                                <a href="#portfolio" class="footer__link">Recenze</a>
                             </li>
+
                         </ul>
 
                         <div class="footer__socials">
-                            <a href="https://www.linkedin.com/in/tomáš-bosák" target="_blank"
-                                class="footer__social">
-                                <i class="uil uil-linkedin-alt"></i>
+                            <a  href="https://wa.me/?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20"
+                                target="_blank"
+                                class="footer__social"
+                            >
+                                <i class="uil uil-whatsapp"></i>
                             </a>
-                            <a href="https://github.com/wodosharlatan" target="_blank" class="footer__social">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://signal.org/" target="_blank" class="footer__social">
-                                <i class="uil uil-comment"></i>
+
+                            <a  href="tel:+420739708473"
+                                target="_blank" 
+                                class="footer__social"
+                            >
+                                <i class="uil uil-phone-alt"></i>
                             </a>
                         </div>
                     </div>
-                    <p class="footer__copy"> &#169; Tomáš Bosák </p>
+                    <p class="footer__copy">
+                        <a target="_blank" href="https://bosic.xyz">&#169; Tomáš Bosák</a>
+                    </p>
                 </div>
             </footer>
         </>
     );
 }
-
-
-
-

@@ -75,9 +75,9 @@ export default function Home() {
                     />
                     <image
                       class="home__blob-image"
-                      x="-125"
+                      x="-85"
                       y="-40"
-                      href="RandomPerson.png"
+                      href="RandomFoto.png"
                     />
                   </g>
                 </svg>
@@ -91,7 +91,7 @@ export default function Home() {
                 <p class="home__description">
                   "Nejaka motivacni veta, ktera bude vyzdvihovat tvoje schopnosti"
                 </p>
-                <a href="https://wa.me/?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20" class="button button--flex">
+                <a href="https://wa.me/?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20" target="_blank" class="button button--flex">
                   Kontaktuj Mě <i class="uil uil-message button__icon"></i>
                 </a>
               </div>
@@ -104,6 +104,8 @@ export default function Home() {
                 <i class="uil uil-arrow-circle-down home__scroll-arrow"></i>
               </a>
             </div>
+
+            
           </div>
         </section>
       </main>

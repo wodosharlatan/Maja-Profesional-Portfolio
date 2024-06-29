@@ -8,27 +8,24 @@ export default function BackEndModal({ open, onClose }) {
       <div class="services__modal">
         <div class="services__modal-content">
           <h4 class="services__modal-title">
-            Backend <br /> Developer
+          Doučovaní <br /> Informatiky
           </h4>
           <i onClick={onClose} class="uil uil-times services__modal-close"></i>
 
           <ul class="services__modal-services grid">
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>Web page development.</p>
+              <p>Práce s windows</p>
             </li>
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>I troubleshoot and debug.</p>
+              <p>Jednoduché i pokročilé prezentace</p>
             </li>
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>I manage web data.</p>
+              <p>Excel, Word i Powerpoint</p>
             </li>
-            <li class="services__modal-service">
-              <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>I build and maintain websites.</p>
-            </li>
+            
           </ul>
         </div>
       </div>

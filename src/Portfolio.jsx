@@ -45,8 +45,8 @@ export default function Portfolio() {
     <>
       <main class="main">
         <section class="portfolio section" id="portfolio">
-          <h2 class="section__title">Portfolio</h2>
-          <span class="section__subtitle">Most recent work</span>
+          <h2 class="section__title">Recenze</h2>
+          <span class="section__subtitle">Já z očí zákazníků</span>
 
           <div class="portfolio__container container">
             <div class="portfolio__content grid">

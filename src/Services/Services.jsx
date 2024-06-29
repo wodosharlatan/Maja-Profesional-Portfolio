@@ -11,8 +11,8 @@ export default function Services() {
       <main class="main">
         {/*==================== SERVICES ====================*/}
         <section class="services section" id="services">
-          <h2 class="section__title">Services</h2>
-          <span class="section__subtitle">What I offer</span>
+          <h2 class="section__title">Služby</h2>
+          <span class="section__subtitle">co nabízím</span>
 
           <div class="services__container container grid">
             {/*=================== SERVICE 1 ====================*/}
@@ -20,7 +20,7 @@ export default function Services() {
               <div>
                 <i class="uil uil-web-grid services__icon"></i>
                 <h3 class="services__title">
-                  Frontend <br /> Developer
+                  Doučovaní <br /> Matematiky
                 </h3>
               </div>
 
@@ -28,7 +28,7 @@ export default function Services() {
                 onClick={() => OpenFrontEnd(true)}
                 class="button button--flex button--small button--link services__button"
               >
-                View More
+                Číst dále
                 <i class="uil uil-arrow-right button__icon"></i>
               </span>
 
@@ -43,7 +43,7 @@ export default function Services() {
               <div>
                 <i class="uil uil-cog services__icon"></i>
                 <h3 class="services__title">
-                  Backend <br /> Developer
+                Doučovaní <br /> Informatiky
                 </h3>
               </div>
 
@@ -51,7 +51,7 @@ export default function Services() {
                 onClick={() => OpenBackEnd(true)}
                 class="button button--flex button--small button--link services__button"
               >
-                View More
+                Číst dále
                 <i class="uil uil-arrow-right button__icon"></i>
               </span>
 
