@@ -23,7 +23,7 @@ export default function BackEndModal({ open, onClose }) {
             </li>
             <li class="services__modal-service">
               <i class="uil uil-check-circle services__modal-icon"></i>
-              <p>Excel, Word i Powerpoint</p>
+              <p>Excel, Wor d i Powerpoint</p>
             </li>
             
           </ul>

@@ -3,21 +3,21 @@ import React, { useState, useEffect } from "react";
 export default function Portfolio() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const TenSeconds = 7500;
+  const SevenSeconds = 7500;
 
   const portfolio = [
     {
-      title: "Talker",
+      title: "Jan Novák",
       description:
-        "Talker is a chatting / file-sharing application that I build using PHP, MySql, and JavaScript",
-      image: "Talker.png",
-      demo: "https://github.com/wodosharlatan/Talker",
+        "Mája je skvělá učitelka, která mi pomohla s přípravou na maturitu z matematiky.",
+      image: "ThisPersonDoesNotExist1.png",
+      rating: 5,
     },
     {
-      title: "Tic Tac Toe",
-      description: "My take on the Tic Tac Toe game using Assembly 8051",
-      image: "Tic-Tac-Toe.jpg",
-      demo: "https://github.com/wodosharlatan/Assembly-8051-Tic-Tac-Toe",
+      title: "Jiří Langer",
+      description: "Obrázky lidí, kteří neexistují, jsou podle mě velmi fascinující.",
+      image: "ThisPersonDoesNotExist2.png",
+      rating: 4,
     },
   ];
 
@@ -30,48 +30,54 @@ export default function Portfolio() {
       }
     });
   };
-  
-  
 
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, TenSeconds);
+    }, SevenSeconds);
 
     return () => clearInterval(interval);
   }, []);
 
+  const renderStars = (rating) => {
+    const stars = [];
+    for (let i = 1; i <= 5; i++) {
+      if (i <= rating) {
+        stars.push(<i key={i} className="uil uil-star"></i>);
+      } else {
+        stars.push(<i key={i} className="uil uil-star-not-rated"></i>);
+      }
+    }
+    return stars;
+  };
+
   return (
     <>
-      <main class="main">
-        <section class="portfolio section" id="portfolio">
-          <h2 class="section__title">Recenze</h2>
-          <span class="section__subtitle">Já z očí zákazníků</span>
-
-          <div class="portfolio__container container">
-            <div class="portfolio__content grid">
+      <main className="main">
+        <section className="portfolio section" id="portfolio">
+          <h2 className="section__title">Recenze</h2>
+          <span className="section__subtitle">Já z očí zákazníků</span>
+          <div className="portfolio__container container">
+            <div className="portfolio__content grid">
               <img
                 src={portfolio[currentIndex].image}
                 alt=""
-                class="portfolio__img"
+                className="portfolio__img"
               />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
+              <div className="portfolio__data">
+                <h3 className="portfolio__title">
                   {portfolio[currentIndex].title}
                 </h3>
-                <p class="portfolio__description">
+
+                <p className="portfolio__description">
                   {portfolio[currentIndex].description}
                 </p>
 
-                <a
-                  href={portfolio[currentIndex].demo}
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
+                <div className="portfolio__rating">
+                  {renderStars(portfolio[currentIndex].rating)}
+                </div>
+
               </div>
             </div>
           </div>

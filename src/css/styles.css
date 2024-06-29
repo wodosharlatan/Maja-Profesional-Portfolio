@@ -1077,3 +1077,13 @@ button, input[type="submit"], input[type="reset"] {
   -webkit-animation: 0;
   animation: 0;
 }
+
+.uil-star{
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.uil-star-not-rated{
+  font-size: 1.5rem;
+  display: none;
+}

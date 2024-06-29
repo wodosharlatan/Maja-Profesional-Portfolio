@@ -24,6 +24,8 @@ export default function Home() {
       typed.current = new Typed(el.current, options);
     });
 
+
+    
     return (
       <div className="wrap">
         <div className="type-wrap">
@@ -32,6 +34,8 @@ export default function Home() {
       </div>
     );
   };
+
+  const zprava = "https://wa.me/420739708473?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20"
 
   return (
     <>
@@ -42,7 +46,7 @@ export default function Home() {
             <div class="home__content grid">
               <div class="home__social">
                 <a
-                  href="https://wa.me/?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20"
+                  href={zprava}
                   target="_blank"
                   class="home__social-icon"
                 >
@@ -91,8 +95,13 @@ export default function Home() {
                 <p class="home__description">
                   "Nejaka motivacni veta, ktera bude vyzdvihovat tvoje schopnosti"
                 </p>
-                <a href="https://wa.me/?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná.%20" target="_blank" class="button button--flex">
-                  Kontaktuj Mě <i class="uil uil-message button__icon"></i>
+                <a  
+                  href={zprava}
+                  target="_blank" 
+                  class="button button--flex"
+                >
+                  Kontaktuj Mě 
+                  <i class="uil uil-message button__icon"></i>
                 </a>
               </div>
             </div>
@@ -105,7 +114,7 @@ export default function Home() {
               </a>
             </div>
 
-            
+
           </div>
         </section>
       </main>

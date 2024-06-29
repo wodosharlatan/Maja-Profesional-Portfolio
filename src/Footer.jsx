@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function Footer() {
+
+    const zprava = "https://wa.me/420739708473?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná."
+
     return (
         <>
 
@@ -27,7 +30,7 @@ export default function Footer() {
                         </ul>
 
                         <div class="footer__socials">
-                            <a href="https://wa.me/420739708473?text=Na%20tuto%20zprávu%20neodpovídejte%2C%20je%20automaticky%20generovaná."
+                            <a  href={zprava}
                                 target="_blank"
                                 class="footer__social">
                                 <i class="uil uil-whatsapp"></i>
